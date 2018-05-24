@@ -52,6 +52,7 @@ src = [
 ]
 
 re2_lib = static_library('re2',
+  name_prefix : 'lib',
   sources : src,
   include_directories: include_directories('.'),
   dependencies: deps,
